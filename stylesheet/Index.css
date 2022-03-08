@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap');
+
+/* ********************************************Mobile View******************************************* */
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: "JetBrains Mono";
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.topHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.topHead p a:hover {
+    color: #475058;
+}
+nav {
+    color: #ffffff;
+    background-color: #3a3a3a;
+    width: 100%;
+    display: flex;
+}
+
+nav ul li a{
+    color: #fff;
+    list-style: none;
+    
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.lowhead {
+    max-width: 100%;
+}
+
+
+nav ul {
+    display: flex;
+    /* margin-left: 5px; */
+    list-style: none;
+    /* text-align: left; */
+    padding: 0;
+}
+.vehicle img {
+    width: 100%;
+    grid-column: 1/1;
+    margin-top: -4em;
+    z-index: 0;
+}
+.button {
+    grid-row: 3;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+#account a {
+    color: black;
+
+
+}
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.reviews ul li {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.call2Action {
+    color: #3a3a3a;
+    font-size: 25px;
+    font-weight: bold;
+    width: 170px;
+    background-color: #4c96d7;
+    padding: 10px;
+    border: 0px black solid;
+}
+.call2Action a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.topHead p a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: red;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: #8d8d8d;
+    padding: 0.5rem;
+    margin: 20px 20px 0 0;
+
+}
+
+
+
+header {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.features {
+    font-size: 15px;
+    color: #0000FF;
+    margin-left: 15px;
+    line-height: 5em;
+    grid-column: 1/1;
+    z-index: 20;
+}
+.feature {
+    line-height: .5em;
+    color: #0000FF;
+}
+.feature h2 {
+    font-weight: bold;
+}
+hr {
+    height: 5px;
+    background-color: #3a3a3a;
+}
+
+
+.upgradeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.upgradeContainer div {
+    padding: 5px;
+}
+.img {
+    background-color: #4c96d7;
+    height: 80px;
+}
+.upgrade1, .upgrade2, .upgrade3, .upgrade4 {
+    text-align: center;
+    justify-self: center;
+    width: 80%;
+}
+.upgradeContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.upgradeContainer div {
+    justify-self: center;
+}
+.box1, .box2 {
+        line-height: 1px;
+    }
+    input {
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #login {
+        margin-left: 10px;
+    }
+footer {
+    text-align: center;
+    color: #3a3a3a;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.welcome{
+    display: inline;
+}
+
+
+/* ********************************************Desktop View******************************************* */
+@media only screen and (min-width: 60rem) {
+    body {
+    background-color: #fff;
+    margin: 0;
+    font-family: "JetBrains Mono";
+    }
+
+
+    .topHead p a:hover {
+        color: #4c96d7;
+    }
+    nav {
+        color: #ffffff;
+        background-color: #3a3a3a;
+    }
+    nav ul {
+        display: flex;
+        text-align: left;
+        margin-left: 40px;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .topHead {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 3em;
+    }
+
+    .topHead p a {
+        font-size: 16px;
+        color: #3a3a3a;
+        text-decoration: none;
+    }
+    nav ul li a{
+        color: #fff;
+        list-style: none;
+        padding: 10px;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background-color: #4C96D7;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 45px;
+    }
+    .headerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .vehicle img {
+        width: 78em;
+        margin-bottom: 3em;
+        grid-column: 1;
+        grid-row: 3;
+        margin-top: -15em;
+        z-index: 0;
+    }
+    .button {
+        grid-row: 2;
+        z-index: 10;
+        justify-self: start;
+        margin-left: 50px;
+    }
+    .call2Action {
+        color: #3a3a3a;
+        font-size: 25px;
+        font-weight: bold;
+        width: 170px;
+        background-color: #4c96d7;
+        padding: 10px;
+        border: 0px black solid;
+    }
+    .call2Action a {
+        color: #3a3a3a;
+        text-decoration: none;
+    }
+    .features {
+        color: #4c96d7;
+        margin-left: 50px;
+        line-height: 5em;
+        grid-row: 1;
+        z-index: 20;
+    }
+    .feature {
+        line-height: .5em;
+    }
+    .feature h2 {
+        font-weight: bold;
+    }
+    .regrades {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+    .upgrades {
+        flex: 1;
+        order: 1;
+    }
+
+    .upgradeContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .reviews {
+        flex: 1;
+        order: 2;
+    }
+    hr {
+        height: 2.5px;
+        background-color: #3a3a3a;
+    }
+    .reviews ul li {
+        padding-bottom: 15px;
+    }
+    .reviews ul {
+        padding-left: 5em;
+    }
+    .reviews h1 {
+        padding-left: 2em;
+    }
+
+
+    .img {
+        background-color: #4c96d7;
+        height: 80px;
+        width: 300px;
+    }
+    .upgrade1, .upgrade2, .upgrade3, .upgrade4 {
+        text-align: center;
+    }
+    .box1, .box2 {
+        line-height: 1px;
+    }
+    input {
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .upgradeContainer div {
+        padding: 5px;
+    }
+    #login, #register {
+        margin-left: 10px;
+    }
+    footer {
+        text-align: center;
+        color: #3a3a3a;
+        font-size: 20px;
+    }
+}

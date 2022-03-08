@@ -1,0 +1,96 @@
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    max-width: 1200px;
+    margin: 1rem auto;
+    background-image: url("../images/site/small_check.jpg");
+    border: #4c96d7 5px solid;
+    border-radius: 5px;
+}
+
+header, nav, h1, h2, h3 {
+    font-family: "Nova Round", Arial, Helvetica, sans-serif;
+}
+
+/*Header */
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 20px 20px 0 0;
+
+}
+
+#classificationList{
+    margin-bottom: 20px;
+}
+
+.welcome{
+    display: inline;
+}
+
+header {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+/*Navigation ----- */
+
+nav {
+    background-color: #3a3a3a;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li a{
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+nav a:hover {
+    background-color: #4c96d7;
+    color: #3a3a3a;
+    transform: scale(1, 1.1);
+    transition: 0.2s;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/*Main ----- */
+
+main {
+    padding: 1rem;
+    background-color: white;
+}
+
+hr {
+    margin: 0;
+    border: 3px solid #3a3a3a;
+}
+/*Footer ----- */
+
+footer {
+    color: #3a3a3a;
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+}
